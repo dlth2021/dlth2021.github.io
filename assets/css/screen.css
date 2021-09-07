@@ -75,7 +75,9 @@
 }
 
 ul.pager { 
-	text-align: center; 
+	/*text-align: center; */
+	margin: 0;
+	padding: 0;
 	list-style: none; 
 }
 ul.pager li {

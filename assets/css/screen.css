@@ -151,6 +151,6 @@ Tablet: ;
 */
 @media only screen and (max-width: 600px) {
 	.item-thumbnail {
-	    max-width: 60%;
+	    max-width: 40%;
 	}
 }

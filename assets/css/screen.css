@@ -124,3 +124,33 @@ ul.pager li {
 	color: inherit;
 	text-decoration: none;
 }
+
+
+/* Responsive with screen */
+/* 
+PC: ;
+1366x768 (22.98%)
+1920x1080 (20.7%)
+1536x864 (7.92%)
+1440x900 (7.23%)
+1280x720 (4.46%)
+
+Mobile: ;
+360x640 (18.7%)
+375x667 (7.34%)
+414x896 (6.76%)
+360x780 (5.31%)
+375x812 (5.01%)
+
+Tablet: ;
+768x1024 (51.43%)
+1280x800 (7.28%)
+800x1280 (5.26%)
+601x962 (4.32%)
+962x601 (2.99%)
+*/
+@media only screen and (max-width: 600px) {
+	.item-thumbnail {
+	    max-width: 60%;
+	}
+}
